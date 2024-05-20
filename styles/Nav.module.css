@@ -1,0 +1,30 @@
+.nav{
+    background-color:blueviolet;
+    color:#fff;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+.nav_wrapper{
+    width:90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav button{
+    font-size: 24px;
+    font-weight: bold;
+    font-family:cursive;
+    margin-inline: 2rem;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-inline: 8rem;
+}
+.nav ul li a {
+    padding: 1rem;
+}
